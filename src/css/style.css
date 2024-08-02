@@ -1,6 +1,111 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Sora:wght@100..800&display=swap');
 
+/* Geral */
 body {
     font-family: 'Inter', sans-serif;
     background-color: var(--black);
+    color: var(--white);
+}
+.margin {
+    margin: 0 160px 0 160px;
+}
+/* Header */
+#header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 32px 160px 16px 160px;
+}
+#header .logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4px;
+}
+#header .logo p {
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+#header #menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 52px;
+}
+#header #menu p {
+    cursor: pointer;
+}
+#header .menu-item-yellow {
+    color: var(--yellow1);
+}
+/* Banner */
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+#banner-box-1 {
+    background-color: var(--white);
+    width: 889px;
+    height: 504px;
+    border-radius: 30px;
+    padding: 32px;
+    color:var (--black);
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+#banner-box-1 h3 {
+    color: var(--black);
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 65px; /* 120.37% */
+    letter-spacing: -1.62px;
+    text-transform: uppercase;
+    width: 520px;
+    margin-top: 24px;
+}
+#banner-box-1 #box-footer {
+    color: var(--black);
+    display: flex;
+    align-items: center;
+    margin-top: 140px;
+    gap: 16px;
+}
+#banner-box-1 #box-footer button {
+    border: none;
+    color: var(--white);
+    background-color: var(--black);
+    font-weight: 500;
+    width: 250px;
+    height: 45px;
+    border-radius: 50vh;
+    cursor: pointer;
+}
+#banner-box-2 {
+    width: 668px;
+    height: 504px;
+    background-image: url(../image/arek-adeoye-gGZ8ZynljWk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+    padding: 32px;
+}
+#banner-box-2 p {
+    color: var(--white);
+    width: 310px;
+    margin-top: 340px;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 33px */
+    letter-spacing: -1.2px;
+    text-transform: uppercase;
 }
