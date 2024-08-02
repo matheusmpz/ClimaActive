@@ -14,9 +14,9 @@
             <p>ClimaActive</p>
         </div>
         <nav id="menu">
-            <p class="menu-item-yellow">NOVIDADES</p>
-            <p class="">PREVISÃO</p>
-            <p class="">EXTRA</p>
+            <a href="#main"> <p class="menu-item-yellow">NOVIDADES</p></a>
+            <a href="#search"> <p class="">PREVISÃO</p></a>
+            <a href="#"> <p class="">EXTRA</p></a>
         </nav>
     </header>
     <main class="margin">
@@ -45,17 +45,17 @@
         <section id="search">
             <article id="busca">
                 <div>
-                    <input type="text" placeholder="Buscar clima por cidade...">
-                    <button><img src="src/image/search.svg" alt="#"></button>
+                    <input type="search" name="city_name" id="city_name" placeholder="Buscar clima por cidade...">
+                    <button type="submit"><img src="src/image/search.svg" alt="#"></button>
                 </div>
             </article>
             <article id="box-info">
-                <div class="box-content">
+                <div class="box-content item item1">
                     <div class="image">
-                        <img src="src/image/yellow-hexagon.svg" alt="#">
+                        <img src="src/image/temp_max.svg" alt="#">
                         <div class="temp">
                             <h3>Temp. max</h3>
-                            <h2>25°C</h2>
+                            <h2 id="temp_max">25°C</h2>
                         </div>
                     </div>
                     <div class="box-content-alert">
@@ -63,15 +63,77 @@
                         <p>Os valores mostrados podem ser <br> alterados dependendo da antecedência.</p>
                     </div>
                 </div>
+
+                <div class="box-content item item2">
+                    <div class="image">
+                        <img src="src/image/temp_min.svg" alt="#">
+                        <div class="temp">
+                            <h3>Temp. min</h3>
+                            <h2 id="temp_min">15°C</h2>
+                        </div>
+                    </div>
+                    <div class="box-content-alert">
+                        <img src="src/image/black-alert.svg" alt="#">
+                        <p>Os valores mostrados podem ser <br> alterados dependendo da antecedência.</p>
+                    </div>
+                </div>
+
+                <div class="box-content item item3">
+                    <div class="image">
+                        <img src="src/image/humidity.svg" alt="#">
+                        <div class="temp">
+                            <h3>Humidade</h3>
+                            <h2 id="humidity">40%</h2>
+                        </div>
+                    </div>
+                    <div class="box-content-alert">
+                        <img src="src/image/black-alert.svg" alt="#">
+                        <p>Os valores mostrados podem ser <br> alterados dependendo da antecedência.</p>
+                    </div>
+                </div>
+
+                <div class="box-content item item4">
+                    <div class="image">
+                        <img src="src/image/wind.svg" alt="#">
+                        <div class="temp">
+                            <h3>Vento</h3>
+                            <h2 id="wind">44km/h</h2>
+                        </div>
+                    </div>
+                    <div class="box-content-alert">
+                        <img src="src/image/black-alert.svg" alt="#">
+                        <p>Os valores mostrados podem ser <br> alterados dependendo da antecedência.</p>
+                    </div>
+                </div>
+                <div id="weather" class=" item item5">
+                    <h1 id="title">Marília, BR</h1>
+
+                    <div id="infos">
+                        <div id="temp">
+                            <img id="temp_img" src="src/image/white-cloud.svg" alt="#">
+                            <div>
+                                <p id="temp_value">32°C</p>
+                                <p id="temp_description">Ensolarado</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
                 
-                <div></div>
+            </article>
+            <article id="alert">
+
             </article>
         </section>
     </main>
+    <hr class="horizontal-line">
     <footer class="margin">
         <div class="logo">
             <img src="src/image/yellow-cloud.svg" alt="cloud-icon">
             <p>ClimaActive</p>
+        </div>
+        <div>
+            <p>DESENVOLVIDO POR: <span>MATHEUS PEREIRA SOARES</span></p>
         </div>
     </footer>
 </body>
