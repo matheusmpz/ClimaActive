@@ -17,13 +17,13 @@ body {
     justify-content: space-between;
     margin: 32px 160px 16px 160px;
 }
-#header .logo {
+.logo {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 4px;
 }
-#header .logo p {
+.logo p {
     font-size: 30px;
     font-style: normal;
     font-weight: 600;
@@ -108,4 +108,69 @@ body {
     line-height: 110%; /* 33px */
     letter-spacing: -1.2px;
     text-transform: uppercase;
+}
+/* Search */
+#search #busca div {
+    width: 670px;
+    height: 67px;
+    border-radius: 64px;
+    background: var(--gray);
+    box-shadow: 6px 8px 11px 0px rgba(0, 0, 0, 0.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 24px;
+    margin-top: 160px;
+}
+#search #busca input {
+    color: var(--white);
+    outline: none;
+    border: none;
+    padding: 12px;
+    background: transparent;
+    font-size: 1.1rem;
+    width: 100%;
+}
+#search #busca button {
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+/* Pseudoclasse para mudar placeholder */
+#search #busca input::placeholder {
+    color: var(--white);
+}
+#box-info {
+    margin: 74px 0;
+}
+.box-content {
+    background-color: var(--white);
+    color: var(--black);
+    width: 530px;
+    height: 268px;
+    border-radius: 12px;
+}
+.box-content .image {
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+}
+.box-content .image .temp {
+    margin-top: 70px;
+}
+.box-content .temp {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.box-content .box-content-alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+/* Footer */
+footer {
+    margin: 0 54px;
 }
