@@ -8,6 +8,11 @@ body {
     font-family: 'Inter', sans-serif;
     background-color: var(--black);
     color: var(--white);
+    background-image: url(../image/fundo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 .margin {
     margin: 0 160px 0 160px;
