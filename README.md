@@ -13,23 +13,12 @@ CSS3 (ainda sem responsividade)
 JavaScript
 API OpenWeatherMap
 Como Usar
-Clone este repositório:
-
-bash
-Copiar código
-git clone https://github.com/seuusuario/climaactive.git
-Crie uma conta no OpenWeatherMap e gere uma chave de API.
-
-Abra o arquivo script.js e substitua a variável API_KEY pela sua chave da API:
-
-javascript
-Copiar código
-const API_KEY = 'sua_chave_da_api';
-Abra o arquivo index.html em um navegador para visualizar o projeto.
+basta acessar o link: https://clima-active.vercel.app/
 
 Pré-requisitos
 Um navegador web atualizado.
 Conexão com a internet para acessar a API OpenWeatherMap.
+
 Melhorias Futuras
 Tornar a interface responsiva para dispositivos móveis.
 Adicionar previsão do tempo para os próximos dias.
