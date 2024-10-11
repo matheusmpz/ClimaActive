@@ -12,6 +12,7 @@ HTML5
 CSS3 (ainda sem responsividade)
 JavaScript
 API OpenWeatherMap
+
 Como Usar
 basta acessar o link: https://clima-active.vercel.app/
 
