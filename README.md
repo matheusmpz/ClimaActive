@@ -14,6 +14,7 @@ JavaScript
 API OpenWeatherMap
 
 Como Usar
+
 basta acessar o link: https://clima-active.vercel.app/
 
 Pré-requisitos
