@@ -7,10 +7,10 @@ Informações sobre a umidade do ar.
 Exibição da velocidade do vento.
 Ícones dinâmicos de clima fornecidos pela própria API OpenWeatherMap.
 Atualização dos dados em tempo real ao inserir o nome de uma cidade.
-Tecnologias Utilizadas
-HTML5
-CSS3 (ainda sem responsividade)
-JavaScript
+Tecnologias Utilizadas,
+HTML5,
+CSS3 (ainda sem responsividade),
+JavaScript e
 API OpenWeatherMap
 
 Como Usar:
