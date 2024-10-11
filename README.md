@@ -13,21 +13,21 @@ CSS3 (ainda sem responsividade)
 JavaScript
 API OpenWeatherMap
 
-Como Usar
+Como Usar:
+Basta acessar o link: https://clima-active.vercel.app/
 
-basta acessar o link: https://clima-active.vercel.app/
-
-Pré-requisitos
+Pré-requisitos:
 Um navegador web atualizado.
 Conexão com a internet para acessar a API OpenWeatherMap.
 
 Melhorias Futuras
-Tornar a interface responsiva para dispositivos móveis.
-Adicionar previsão do tempo para os próximos dias.
-Incluir geolocalização para detectar automaticamente a cidade do usuário.
-Aplicar mais estilos visuais usando Tailwind CSS ou outro framework CSS.
-Contribuições
+- Tornar a interface responsiva para dispositivos móveis.
+- Adicionar previsão do tempo para os próximos dias.
+- Incluir geolocalização para detectar automaticamente a cidade do usuário.
+- Aplicar mais estilos visuais usando Tailwind CSS ou outro framework CSS.
+
+Contribuições:
 Sinta-se à vontade para contribuir com o projeto. Você pode abrir um pull request com sugestões de melhorias ou novas funcionalidades.
 
-Licença
-Este projeto é de código aberto e está licenciado sob os termos da MIT License.
+Licença:
+Este projeto de estudo é de código aberto e está licenciado sob os termos da MIT License.
